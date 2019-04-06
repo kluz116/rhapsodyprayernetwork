@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:elevation="4dp"
+        card_view:cardCornerRadius="@dimen/card_album_radius">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/card_margin"
+                android:layout_marginRight="@dimen/card_margin">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageView"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/nav_user_margin"
+                android:scaleType="centerCrop"
+                android:src="@drawable/logo"
+                app:civ_border_color="#fff"
+                app:civ_border_width="2dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@+id/imageView"
+                android:layout_toRightOf="@+id/imageView"
+                android:text="I testify"
+                android:textColor="@color/black"
+                android:textSize="@dimen/heading_one"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_alignStart="@+id/textView2"
+                android:layout_below="@+id/textView2"
+                android:textSize="@dimen/text_size"
+                android:text="Submit your testimonies" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/itestify"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/prayer_request" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/card_margin"
+                android:paddingBottom="@dimen/card_margin"
+                android:layout_marginRight="@dimen/card_margin">
+
+            <TextView
+                android:id="@+id/prayer_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SHARE YOUR TESTIMONY"
+                android:textColor="@color/black"
+                android:textSize="@dimen/heading_one"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prayer_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/prayer_heading"
+                android:layout_marginTop="@dimen/nav_user_margin"
+                android:text="@string/share_testimony"
+                android:textSize="@dimen/nav_user_margin" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/nav_user_margin"
+                android:gravity="center"
+                android:layout_below="@+id/prayer_details">
+            <Button
+                android:id="@+id/testimony_navigation"
+                android:layout_width="200dp"
+                android:layout_height="35dp"
+                android:textColor="@color/colorAccent"
+                android:text="Share Testimony"
+                android:textAllCaps="false"
+                android:background="@drawable/outline_button_testimony"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+</LinearLayout>

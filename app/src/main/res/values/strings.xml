@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Kluz Prayer Network</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_home">Home</string>
+    <string name="book_libray">Book Libray</string>
+    <string name="action_settings">Settings</string>
+    <string name="prayer_request">Prayer Request</string>
+    <string name="prayer_of_salvation">Prayer of salvation</string>
+    <string name="testfy_now">Testify Now</string>
+    <string name="give_online">Give Online</string>
+    <string name="live_programs">Live programs</string>
+    <string name="log_out">Log out</string>
+    <string name="online_users">2,356+</string>
+    <string name="purchase_book">Purchase book -10USD</string>
+    <string name="prayer_request_text">Let\'s pray with you! Submit your prayer needs, and we’ll be delighted to join you in prayers. </string>
+    <string name="prayer_for_salvation_one">Do you Know Jesus? Do you want to experience peace in your life? You too can begin a NEW LIFE in JESUS CHRIST Today. The Bible says, "For Everyone who calls on the name of the Lord will be saved." (Romans 10:13 NLT). Kindly say this prayer aloud with all your heart and believe it.</string>
+    <string name="prayer_for_salvation_two">"O Lord God, I believe with all my heart in Jesus Christ, Son of the living God. I believe He died for me and God raised Him from the dead. I believe He’s alive today. I confess with my mouth that Jesus Christ is the Lord of my life from this day Through Him and in His Name, I have eternal life; I’m born again. Thank you Lord, for saving my soul! I’m now a child of God. Hallelujah!" .</string>
+    <string name="prayer_for_salvation_three"> What Next ? If you\'ve said this prayer, you are now a child of God! Download this FREE EBOOK on how to continue building your relationship with God.</string>
+    <string name="new_life_christ">Begin a new life IN CHRIST</string>
+    <string name="monthly_day_of_prayer">Every first day of the month, we’ll be praying for the penetration of Rhapsody of Realities around the world. We’ll also be praying for you! Save the date.</string>
+    <string name="share_your_testimony">Have you received a miracle? We’d like to know. Share your testimony with us today.</string>
+    <string name="watch_online">Relive the moments of the epoch-making Rhapsody Online Prayer Conference 2017 with over 6 million participants across 214 countries.</string>
+    <string name="share_testimony">Have you received a miracle? We’d like to know. Share your testimony with us today.</string>
+    <string name="give">Rhapsody of Realities is committed to the spread of the Gospel around the world. With over 1.3 billion copies in circulation in 912 languages, we’re set to do much more in 2018. Join us in making global impact through the distribution of free copies in 2018.</string>
+    <string name="devotion_text">Rhapsody of Realities is a life guide that brings you afresh perspective from Gods word everyday</string>
+    <string name="book_text">The first volume will establish for youa clear understanding of the rules of diffrenet prayers for difrent situations and how to play them for your desired outcome. Your prayer life will be revolutionlized as you open your heart to received and practice the devine insights this book unveils to you.</string>
+    <string name="give_content">We are passionate about the preaching the Gospel of Jesus Christ throughout the world! Get involved and find out how you can help, through the partnership options below. Giving llows you to regulary remind yourself of Gods faithfulness and to express gratitude to Him by giving to meet the needs of others.Give cheerfully-from your heart</string>
+    <string name="give_two">Give cheerfully-from your heart</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Sign In</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="btn_link_signup">Don\'t have an account yet Sign Up </string>
+    <string name="btn_link_login">Already have an account Sign In</string>
+    <string name="click_to_pray">Click to Pray</string>
+
+    <string name="facebook_app_id">187525441886743</string>
+    <string name="fb_login_protocol_scheme">fb187525441886743</string>
+
+    <!--error-->
+    <string name="error_permission_denied"></string>
+    <string name="error_permission_is_off"></string>
+
+</resources>

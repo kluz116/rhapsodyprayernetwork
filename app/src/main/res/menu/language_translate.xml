@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/translate"
+        android:icon="@drawable/translate"
+        android:orderInCategory="1"
+        android:title=""
+        app:showAsAction="always" >
+        <menu>
+            <item
+                android:id="@+id/en"
+                android:icon="@drawable/checkbox_blank_circle_outline"
+                android:orderInCategory="2"
+                android:title="English"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/fr"
+                android:orderInCategory="3"
+                android:icon="@drawable/power_off"
+                android:title="French"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/fl"
+                android:icon="@drawable/power_off"
+                android:title="Filipino"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/gm"
+                android:orderInCategory="100"
+                android:icon="@drawable/power_off"
+                android:title="German" />
+            <item
+                android:id="@+id/rs"
+                android:orderInCategory="100"
+                android:icon="@drawable/power_off"
+                android:title="Russia" />
+            <item
+                android:id="@+id/hindi"
+                android:orderInCategory="100"
+                android:icon="@drawable/power_off"
+                android:title="Hindi" />
+            <item
+                android:id="@+id/mr"
+                android:orderInCategory="100"
+                android:icon="@drawable/power_off"
+                android:title="Mandarin" />
+        </menu>
+    </item>
+
+
+</menu>

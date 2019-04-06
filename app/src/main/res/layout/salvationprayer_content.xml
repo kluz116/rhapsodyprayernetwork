@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="org.allan_musembya.prayer.prayernetwork.PrayerRequest">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <android.support.v7.widget.CardView
+
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_marginTop="@dimen/card_margin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:elevation="4dp"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingBottom="@dimen/activity_horizontal_margin">
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="210dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/salvation" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="118dp"
+                        android:gravity="center"
+                        android:text="@string/new_life_christ"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/new_life"
+                        android:layout_alignParentLeft="true" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/card_margin"
+                    android:layout_marginRight="@dimen/card_margin">
+
+                    <TextView
+                        android:id="@+id/prayer_details"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/prayer_for_salvation_one"
+                         android:textSize="@dimen/text_size" />
+                    <TextView
+                        android:id="@+id/prayer_details_two"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/prayer_details"
+                        android:textStyle="italic"
+                        android:layout_marginTop="@dimen/heading_one"
+                        android:text="@string/prayer_for_salvation_two"
+                        android:textSize="@dimen/text_size" />
+
+                    <TextView
+                        android:id="@+id/prayer_details_three"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/prayer_details_two"
+                        android:layout_marginTop="@dimen/heading_one"
+                        android:text="@string/prayer_for_salvation_three"
+                        android:textSize="@dimen/text_size" />
+                </RelativeLayout>
+                <include layout="@layout/item_divider"></include>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/card_margin"
+                    android:layout_marginRight="@dimen/card_margin"
+                    android:paddingBottom="@dimen/activity_horizontal_margin"
+                    android:gravity="center">
+
+                        <Button
+                            android:id="@+id/downloadook"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:textColor="@color/white"
+                            android:drawableLeft="@drawable/file_download"
+                            android:drawablePadding="5dp"
+                            android:padding="@dimen/card_margin"
+                            android:text="Download Free Ebook"
+                            android:background="@color/submit_testimony"
+                            android:drawableStart="@drawable/cloud_download" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

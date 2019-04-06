@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="org.allan_musembya.prayer.prayernetwork.PrayerRequest">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <android.support.v7.widget.CardView
+
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_marginTop="@dimen/card_margin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:elevation="4dp"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/testimony_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="208dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/prayer_request"
+                        android:layout_alignParentLeft="true" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/card_margin"
+                    android:layout_marginRight="@dimen/card_margin">
+
+                    <TextView
+                        android:id="@+id/prayer_heading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="WE STAND WITH YOU"
+                        android:textSize="@dimen/nav_user_margin"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/prayer_details"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/prayer_heading"
+                        android:layout_marginTop="@dimen/nav_user_margin"
+                        android:text="@string/share_testimony"
+                        android:textSize="@dimen/text_size" />
+                    </RelativeLayout>
+                <include layout="@layout/item_divider"></include>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/card_margin"
+                    android:layout_marginRight="@dimen/card_margin"
+                    android:paddingBottom="@dimen/activity_horizontal_margin">
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:textSize="@dimen/text_size"
+                        android:text="Share Your Testimony." />
+                        <EditText
+                            android:id="@+id/input_testimony"
+                            android:textColor="@color/text"
+                            android:layout_marginTop="5dp"
+                            android:layout_below="@+id/textView4"
+                            android:layout_width="match_parent"
+                            android:background="@drawable/rounded_edit_text"
+                            android:layout_height="80dp"
+                            android:inputType="textMultiLine"
+                            android:cursorVisible="false"
+                            />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="35dp"
+                        android:gravity="center"
+                        android:layout_below="@+id/input_testimony">
+
+                        <Button
+                            android:id="@+id/submit_testimony"
+                            android:layout_width="240dp"
+                            android:layout_height="40dp"
+                            android:textColor="@color/white"
+                            android:text="Submit Testimony"
+                            android:textAllCaps="false"
+                            android:background="@color/submit_testimony"/>
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

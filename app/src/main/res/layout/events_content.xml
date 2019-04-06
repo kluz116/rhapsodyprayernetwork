@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_marginTop="@dimen/card_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:elevation="3dp"
+    card_view:cardCornerRadius="@dimen/card_album_radius">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/card_margin">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:text="Events and Notification"
+                android:textSize="@dimen/nav_user_margin"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_below="@+id/textView2"
+                android:text="Activities around you"
+                android:textSize="@dimen/nav_user_margin"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/prayer_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView3"
+                android:layout_marginTop="@dimen/nav_user_margin"
+                android:text="Events will be up here"
+                android:textSize="@dimen/nav_user_margin"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prayer_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/prayer_heading"
+                android:layout_marginTop="@dimen/nav_user_margin"
+                android:text="The opportunity presented in this listing is very interesting, and I believe that my strong tech"
+                android:textSize="@dimen/nav_user_margin" />
+
+            <TextView
+                android:id="@+id/comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/prayer_details"
+                android:layout_marginTop="@dimen/nav_user_margin"
+                android:text="Purchase Book" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

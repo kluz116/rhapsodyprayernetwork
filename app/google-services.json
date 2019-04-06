@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "186101517443",
+    "firebase_url": "https://rhapsodyprayernetwork.firebaseio.com",
+    "project_id": "rhapsodyprayernetwork",
+    "storage_bucket": "rhapsodyprayernetwork.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186101517443:android:acb2a944ceba91f4",
+        "android_client_info": {
+          "package_name": "org.allan_musembya.prayer.prayernetwork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186101517443-i4maktcv614ruduafbuf6tjm79lt3okp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.allan_musembya.prayer.prayernetwork",
+            "certificate_hash": "ae517c46c0e16bffc241e465c50faaa1e754e076"
+          }
+        },
+        {
+          "client_id": "186101517443-e1o86osqjjervrrr0i5fddlsvmmhphau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCydEYjjBeLSWSC0fh-9neEHYqefl1ekqQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186101517443-e1o86osqjjervrrr0i5fddlsvmmhphau.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

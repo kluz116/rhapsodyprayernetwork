@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/card_margin"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".CommentActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_weight="20"
+        android:layout_height="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+            <LinearLayout
+                android:id="@+id/layout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/user_pratikshya" />
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="-15dp"
+                    android:layout_marginTop="6.5dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/arrow_bg2" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:paddingLeft="5dp"
+                    android:background="@drawable/rounded_corner1">
+
+                    <TextView
+                        android:id="@+id/user_comment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="0dp"
+                        android:text="Allan Musembya"
+                        android:textSize="@dimen/text_size_one"
+                        android:layout_alignParentLeft="true" />
+
+                    <TextView
+                        android:id="@+id/user_comment_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginStart="7dp"
+                        android:layout_toEndOf="@+id/user_comment"
+                        android:layout_toRightOf="@+id/user_comment"
+                        android:text="2 hours ago"
+                        android:textSize="@dimen/text_size_one" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/user_comment"
+                    android:text="Android charting application xml ui design. "
+                    android:textColor="#000" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/layout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout2"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/pic3" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="-15dp"
+                    android:layout_marginTop="6.5dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/arrow_bg2" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:paddingLeft="5dp"
+                    android:background="@drawable/rounded_corner1">
+
+                    <TextView
+                        android:id="@+id/user_comment2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="0dp"
+                        android:text="Allan Musembya"
+                        android:textSize="@dimen/text_size_one"
+                        android:layout_alignParentLeft="true" />
+
+                    <TextView
+                        android:id="@+id/user_comment_time2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginStart="7dp"
+                        android:layout_toEndOf="@+id/user_comment2"
+                        android:layout_toRightOf="@+id/user_comment2"
+                        android:text="2 hours ago"
+                        android:textSize="@dimen/text_size_one" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/user_comment2"
+                        android:text="Android charting application xml ui design. "
+                        android:textColor="#000" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout4"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/pic1" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="-15dp"
+                    android:layout_marginTop="6.5dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/arrow_bg2" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:paddingLeft="5dp"
+                    android:background="@drawable/rounded_corner1">
+
+                    <TextView
+                        android:id="@+id/user_comment3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="0dp"
+                        android:text="Allan Musembya"
+                        android:textSize="@dimen/text_size_one"
+                        android:layout_alignParentLeft="true" />
+
+                    <TextView
+                        android:id="@+id/user_comment_time3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginStart="7dp"
+                        android:layout_toEndOf="@+id/user_comment3"
+                        android:layout_toRightOf="@+id/user_comment3"
+                        android:text="2 hours ago"
+                        android:textSize="@dimen/text_size_one" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/user_comment3"
+                        android:text="Android charting application xml ui design. "
+                        android:textColor="#000" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/comment_on_prayer_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_border_edittext"
+            android:textColorHint="#CFD8DC"
+            android:cursorVisible="false"
+            android:hint="Add a comment"
+            android:textColor="#000" />
+
+
+        <ImageView
+            android:id="@+id/send_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:padding="4dp"
+            android:src="@android:drawable/ic_menu_send" />
+    </LinearLayout>
+</LinearLayout>

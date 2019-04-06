@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:card_view="http://schemas.android.com/apk/res-auto"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+<android.support.v7.widget.CardView
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/card_margin"
+    android:elevation="4dp"
+    card_view:cardCornerRadius="@dimen/card_album_radius">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:background="@color/light_blue">
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:text="BOOKS ON PRAYER"
+                android:textColor="@color/white"
+                android:textSize="@dimen/heading_one"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_below="@+id/textView2"
+                android:textColor="@color/white"
+                android:text="#featured books"
+                android:textSize="@dimen/heading_one"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/card_margin"
+            android:layout_marginRight="@dimen/card_margin">
+
+            <ImageView
+                android:id="@+id/book_cover_img"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/howtoprayeffectively" />
+
+            <Button
+                android:id="@+id/price_tag"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/price_tag"
+                android:text="10$"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/heading_one"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/book_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/book_cover_img"
+                android:textColor="@color/black"
+                android:text="How to pray effectively"
+                android:textSize="@dimen/heading_one"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/book_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/book_title"
+                android:layout_marginTop="@dimen/nav_user_margin"
+                android:text="@string/book_text"
+                android:textSize="@dimen/text_size" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/nav_user_margin"
+                android:gravity="center"
+                android:id="@+id/buttton_layout"
+                android:orientation="horizontal"
+                android:layout_below="@+id/book_details">
+                <Button
+                    android:id="@+id/purchase"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:drawableLeft="@drawable/check_all"
+                    android:drawablePadding="3dp"
+                    android:layout_marginRight="@dimen/card_margin"
+                    android:padding="@dimen/card_margin"
+                    android:background="@drawable/purchase_book"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:text="@string/purchase_book"
+                    android:drawableStart="@drawable/cloud_download" />
+
+                <Button
+                    android:id="@+id/see_more_books"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:padding="@dimen/card_margin"
+                    android:background="@drawable/see_more_books"
+                    android:textAllCaps="false"
+                    android:text="See more Books"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+</LinearLayout>

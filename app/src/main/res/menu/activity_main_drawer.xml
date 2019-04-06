@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="QUICK MENU">
+        <menu>
+            <item
+                android:id="@+id/go_home"
+                android:icon="@drawable/home_outline_big"
+                android:title="@string/nav_home" />
+            <item
+                android:id="@+id/daily_devotion"
+                android:icon="@drawable/read"
+                android:title="Read Daily Devotional" />
+            <item
+                android:id="@+id/book_libray"
+                android:icon="@drawable/book_open_page_variant"
+                android:title="@string/book_libray" />
+            <item
+                android:id="@+id/prayer_request"
+                android:icon="@drawable/account_multiple_plus"
+                android:title="@string/prayer_request" />
+            <item
+                android:id="@+id/prayer_of_salvation"
+                android:icon="@drawable/plus_outline"
+                android:title="@string/prayer_of_salvation" />
+            <item
+                android:id="@+id/testfy_now"
+                android:icon="@drawable/email_variant"
+                android:title="@string/testfy_now" />
+            <item
+                android:id="@+id/give_online"
+                android:icon="@drawable/heart_outline"
+                android:title="@string/give_online" />
+            <item
+                android:id="@+id/live_programs"
+                android:icon="@drawable/video"
+                android:title="@string/live_programs" />
+            <item
+                android:id="@+id/log_out"
+                android:icon="@drawable/arrow_next"
+                android:title="@string/log_out" />
+
+        </menu>
+    </item>
+
+</menu>

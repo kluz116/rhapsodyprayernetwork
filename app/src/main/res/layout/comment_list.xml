@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:layout_marginTop="30dp"
+    android:layout_margin="4dp">
+
+    <LinearLayout
+        android:id="@+id/layout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView6"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="3"
+            android:src="@drawable/profile" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="-15dp"
+            android:layout_marginTop="6.5dp"
+            android:layout_weight="1"
+            android:src="@drawable/arrow_bg2" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:paddingLeft="5dp"
+            android:background="@drawable/rounded_corner1">
+
+            <TextView
+                android:id="@+id/user_comment2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:text="Allan Musembya"
+                android:textSize="@dimen/text_size_one" />
+
+            <TextView
+                android:id="@+id/user_comment_time2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_toEndOf="@+id/user_comment2"
+                android:layout_toRightOf="@+id/user_comment2"
+                android:text="2 hours ago"
+                android:textSize="@dimen/text_size_one" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/user_comment2"
+                android:text="Android charting application xml ui design. "
+                android:textColor="#000" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
